@@ -19,6 +19,8 @@ Fast data manipulation: Although I originally began work on this project using P
 Reusability: After recommendations are given, users can add books from the recommendations to their liked books list or completely reset the list to get new recommendations without having to re-initialize the BookRecommender.
 
 ## How to install and run the project: 
+Required libraries include: polars, numpy, and sklearn.
+
 Datasets were obtained from https://mengtingwan.github.io/data/goodreads.html
 
 Install book_rec.py from GitHub and the datasets goodreads_books.json.gz, goodreads_interactions.csv, and book_id_map.csv from the link above.
