@@ -21,7 +21,8 @@ Reusability: After recommendations are given, users can add books from the recom
 ## How to install and run the project: 
 Datasets were obtained from https://mengtingwan.github.io/data/goodreads.html
 
-Install book_rec.py from here and the datasets goodreads_books.json.gz, goodreads_interactions.csv, and book_id_map.csv.<br />
+Install book_rec.py from GitHub and the datasets goodreads_books.json.gz, goodreads_interactions.csv, and book_id_map.csv from the link above.
+
 Run the terminal command:<br />
 python book_rec.py -d \<DIRECTORY\><br />
-with <DIRECTORY> being replaced by the directory containing the data files. If they are in the same directory as book_rec.py, this argument can be omitted.
+with \<DIRECTORY\> being replaced by the directory containing the data files. If they are in the same directory as book_rec.py, this argument can be omitted.
