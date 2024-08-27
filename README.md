@@ -26,3 +26,7 @@ Install book_rec.py from GitHub and the datasets goodreads_books.json.gz, goodre
 Run the terminal command:<br />
 python book_rec.py -d \<DIRECTORY\><br />
 with \<DIRECTORY\> being replaced by the directory containing the data files. If they are in the same directory as book_rec.py, this argument can be omitted.
+
+## Future plans for the project include:
+Develop a web UI to host the project online.<br />
+Scrape the Goodreads website for updated data, as the current data is from 2017.
