@@ -105,7 +105,7 @@ class BookRecommender():
     def find_similar_users(self) -> None:
         # Prevents the function from executing if no books were selected
         if not self.liked_books:
-            print("Error: No books entered")
+            print("Error: no books entered")
             return
         
         # Converts the book ids for use with interactions data
