@@ -177,14 +177,14 @@ class BookRecommender():
         self.similar_users = set()
 
 def main():
-    print("initializing")
     # Sets up directory for data files, change the directory argument based on file location
     parser = argparse.ArgumentParser(
                         prog="book_rec.py",
                         description="Recommends books based on Goodreads book ids")
     parser.add_argument("-d", "--directory", type=Path, default = ".")
     args = parser.parse_args()
-    
+
+    print("initializing")
     my_book_recommender = BookRecommender("goodreads_books.json.gz", "book_id_map.csv", "goodreads_interactions.csv", args.directory)
     while True:
         while True:
