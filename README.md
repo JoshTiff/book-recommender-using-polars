@@ -7,7 +7,7 @@ I developed this project because one of my friends was looking for book recommen
 In this project, a BookRecommender object is initialized and the user searches for books to add to a list of liked books. After the user creates their list of liked books, the program finds users who liked at least one book in the list and creates a set of similar users. The program then finds books that the similar users liked and uses them to provide book recommendations.
 
 ## Video Demo:
-TO BE ADDED
+https://youtu.be/bhR5l7v2Tzk
 
 ## Features of the project include:
 Effective search function: Term frequency-inverse document frequency prioritizes words that are less common in searches, so words like "the" will have less of an impact when searching. Book titles are also normalized to avoid distinctions based on capitalization or special characters. Additionally, the search function sorts the most similar results by rating so in the case of duplicate books, the most popular version will appear first.
